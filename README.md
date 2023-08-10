@@ -1,9 +1,9 @@
-<center>
+<h1 align="center">
  <a href=""><img src="./img/shell_valley.png" alt="img"></a>
  <br>
  <h1><center>ShellValley</center></h1>
  <br>
-</center>
+</h1>
 
 
 ```bash
