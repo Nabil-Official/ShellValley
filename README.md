@@ -1,5 +1,5 @@
 <center>
-<a href="https://github.com/Nabil-Official/ShellValley"><img src="./img/shall_valley.png"></a>
+<a href="https://github.com/Nabil-Official/ShellValley"><img src="./img/shell_valley"></a>
 </center>
 
 
