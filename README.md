@@ -43,7 +43,11 @@ Reverse shells |
 | ncat |
 | socket |
 
+### Screenshots
 
+Screenshot 1             |  Screenshot 2
+:-----------------------:|:-----------------------:
+![Screenshot1](./img/s1.png)  |  ![Screenshot2](./img/s2.png)
 
 
 
