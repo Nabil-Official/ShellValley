@@ -18,6 +18,32 @@ python3 run.py -h
 ```bash
 python3 collector.py -s bash -p 4000 -i 127.0.0.1
 ```
+### ► Supported reverse shells
+__default__: `bash`
+
+Reverse shells |
+|-|
+| bash |
+| php |
+| python |
+| python3 |
+| perl |
+| java |
+| javascript |
+| node |
+| netcat |
+| awk |
+| gawk |
+| telnet |
+| golang |
+| powershell |
+| tclsh |
+| ruby |
+| xterm |
+| ncat |
+| socket |
+
+
 
 
 
