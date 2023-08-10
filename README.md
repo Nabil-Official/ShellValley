@@ -1,7 +1,7 @@
 <center>
  <a href=""><img src="./img/shell_valley.png" alt="img"></a>
  <br>
- ShellValley
+ <h1><center>ShellValley</center></h1>
  <br>
 </center>
 
