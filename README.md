@@ -6,6 +6,12 @@
 </h1> 
 <h4 align="center"><i>ShellValley</i> is a user-friendly reverse shell generator tool, specially designed for CTF players who prefer to stay within their terminal while generating reverse shells swiftly.</h4> <br>
 
+<p align="center">
+ <img src="https://img.shields.io/github/license/Nabil-Official/N-WEB">
+</p>
+
+<br>
+
 
 ### Installation
 
@@ -16,7 +22,7 @@ python3 run.py -h
 ```
 ### usage
 ```bash
-python3 collector.py -s bash -p 4000 -i 127.0.0.1
+python3 run.py -s bash -p 4000 -i 127.0.0.1
 ```
 ### ► Supported reverse shells
 __default__: `bash`
@@ -49,7 +55,7 @@ Screenshot 1             |  Screenshot 2
 :-----------------------:|:-----------------------:
 ![Screenshot1](./img/s1.png)  |  ![Screenshot2](./img/s2.png)
 
-### Disclaimer
+### ► Disclaimer
 
 ***This tool is intended solely for testing and educational purposes, and its use is permissible only with explicit and proper consent. Under no circumstances should it be employed for illegal activities. Users must take full responsibility for adhering to all relevant local, state, and federal regulations. The developers disclaim any liability and cannot be held accountable for any inappropriate use or harm resulting from the utilization of this tool and software.***
 
