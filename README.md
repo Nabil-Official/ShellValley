@@ -62,22 +62,33 @@ Screenshot 1             |  Screenshot 2
 
 ***This tool is intended solely for testing and educational purposes, and its use is permissible only with explicit and proper consent. Under no circumstances should it be employed for illegal activities. Users must take full responsibility for adhering to all relevant local, state, and federal regulations. The developers disclaim any liability and cannot be held accountable for any inappropriate use or harm resulting from the utilization of this tool and software.***
 
-<br>
-
 ### ► Contact:
 [![Mail Badge](https://img.shields.io/badge/-NABIL-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=white)](mailto:rjnabilrahman@gmail.com) [![Facebook Badge](https://img.shields.io/badge/-NabilRahman-1ca0f1?style=flat&labelColor=1ca0f1&logo=facebook&logoColor=white&link=[https://www.facebook.com/nabil.404](https://www.facebook.com/nabil.404))](https://www.facebook.com/nabil.404)
 
 <br>
 
 ```bash
-
- _____ _          _ _ _   _       _ _                                                                                   
-/  ___| |        | | | | | |     | | |                                                                                  
-\ `--.| |__   ___| | | | | | __ _| | | ___ _   _                                                                        
- `--. \ '_ \ / _ \ | | | | |/ _` | | |/ _ \ | | |                                                                       
-/\__/ / | | |  __/ | \ \_/ / (_| | | |  __/ |_| |                                                                       
-\____/|_| |_|\___|_|_|\___/ \__,_|_|_|\___|\__, |                                                                       
-                                            __/ | 1.0.0                                                                 
- Nabil Rahman (github.com/Nabil-Official)  |___/
+ _____ _          _ _ _   _       _ _                                                
+/  ___| |        | | | | | |     | | |                                               
+\ `--.| |__   ___| | | | | | __ _| | | ___ _   _                                     
+ `--. \ '_ \ / _ \ | | | | |/ _` | | |/ _ \ | | |                                    
+/\__/ / | | |  __/ | \ \_/ / (_| | | |  __/ |_| |                                    
+\____/|_| |_|\___|_|_|\___/ \__,_|_|_|\___|\__, |                                    
+                                            __/ | 1.0.0                              
+ Nabil Rahman (github.com/Nabil-Official)  |___/                                     
+                                                                                     
+                                                                                     
+usage: run.py [-h] [-l] [-i LHOST] [-p PORT] [-s SHELL]                              
+                                                                                     
+=================== Help Center ====================                                 
+                                                                                     
+optional arguments:                                                                  
+  -h, --help            show this help message and exit                              
+  -l, --list            list of available shells (More shells will be added in the   
+                        future)                                                      
+  -i LHOST, --ip LHOST  specify IP address                                           
+  -p PORT, --port PORT  specify port                                                 
+  -s SHELL, --shell SHELL                                                            
+                        specify shell type  
 
 ```
