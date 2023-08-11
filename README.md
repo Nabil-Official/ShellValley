@@ -65,10 +65,12 @@ Screenshot 1             |  Screenshot 2
 ### ► Contact
 [![Mail Badge](https://img.shields.io/badge/-NABIL-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=white)](mailto:rjnabilrahman@gmail.com) [![Facebook Badge](https://img.shields.io/badge/-NabilRahman-1ca0f1?style=flat&labelColor=1ca0f1&logo=facebook&logoColor=white&link=[https://www.facebook.com/nabil.404](https://www.facebook.com/nabil.404))](https://www.facebook.com/nabil.404)
 
-<br>
+
 
 ### ► Licence
 ***The usage of this project is governed by the GPLv3 License. Please consult the [LICENSE](LICENSE) file for complete information.***
+
+<br>
 
 ```bash
  _____ _          _ _ _   _       _ _                                                
