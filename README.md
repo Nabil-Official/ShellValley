@@ -10,17 +10,17 @@
  <img src="https://img.shields.io/github/license/Nabil-Official/N-WEB">
 </p>
 
+<br>
 
 
-
-### Installation
+### ► Installation
 
 ```bash
 git clone https://www.github.com/Nabil-Official/ShellValley
 cd ShellValley
 python3 run.py -h
 ```
-### usage
+### ► usage
 ```bash
 python3 run.py -s bash -p 4000 -i 127.0.0.1
 ```
