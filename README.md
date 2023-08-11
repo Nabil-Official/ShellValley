@@ -67,7 +67,7 @@ Screenshot 1             |  Screenshot 2
 
 
 
-### ► Licence
+### ► License
 ***The usage of this project is governed by the GPLv3 License. Please consult the [LICENSE](LICENSE) file for complete information.***
 
 <br>
