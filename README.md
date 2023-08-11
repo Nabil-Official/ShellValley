@@ -19,7 +19,7 @@
 ### ► Installation
 
 ```bash
-git clone https://www.github.com/Nabil-Official/ShellValley
+git clone https://github.com/Nabil-Official/ShellValley
 cd ShellValley
 python3 run.py -h
 ```
