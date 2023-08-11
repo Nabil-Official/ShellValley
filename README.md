@@ -49,8 +49,9 @@ Screenshot 1             |  Screenshot 2
 :-----------------------:|:-----------------------:
 ![Screenshot1](./img/s1.png)  |  ![Screenshot2](./img/s2.png)
 
+### Disclaimer
 
-
+***This tool is intended solely for testing and educational purposes, and its use is permissible only with explicit and proper consent. Under no circumstances should it be employed for illegal activities. Users must take full responsibility for adhering to all relevant local, state, and federal regulations. The developers disclaim any liability and cannot be held accountable for any inappropriate use or harm resulting from the utilization of this tool and software.***
 
 ```bash
 
