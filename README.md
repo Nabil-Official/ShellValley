@@ -10,9 +10,7 @@
  <a href="https://github.com/Nabil-Official">
   <img src="https://madewithlove.vercel.app/bd?heart=true">
  </a>
- <a href="https://github.com/Nabil-Official/ShellValley/blob/main/LICENSE">
-<img src="https://img.shields.io/github/license/Nabil-Official/ShellValley">
-  </a>
+ 
 </p>
 
 <br>
